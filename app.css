@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+
+#body, #header{
+    text-align: center;
+    margin-top: 40px;
+    display: block;
+    clear:both;
+}
+#header{
+    width:900px;
+    margin:50px auto;
+}
+#fix-header{
+    float:left;
+}
+#variable-header{
+    float:right;
+}
+.tile-grid{
+    height: 50px;
+    width:50px;
+    display: inline-block;
+    border:1px solid #ddd;
+    margin-right: 10px;
+}
+.selected{
+    background-color: aquamarine;
+}
+.row{
+    display: block;
+    
+}
+.play-again{
+    display:inline-block;
+    width:125px;
+    height:35px;
+    border:1px solid #ddd;
+    border-radius:4px;
+    padding-top:5px;
+    cursor: pointer;
+}
